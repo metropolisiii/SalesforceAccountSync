@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services;
+namespace App\Shared\Services;
 use Forrest;
 
 use App\User;
