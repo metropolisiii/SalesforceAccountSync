@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Listeners;
+namespace App\Shared\Listeners;
 
-use App\Events\UserCreated;
+use App\Shared\Events\UserCreated;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
-use App\Services\SalesforceService;
+use App\Shared\Services\SalesforceService;
 use Forrest;
 
 class CreateSalesforceAccount

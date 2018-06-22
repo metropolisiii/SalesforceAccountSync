@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Events;
+namespace App\Shared\Events;
 
 use App\ConferenceRegistration;
 use App\Lib\Helpers\CryptHelper;
